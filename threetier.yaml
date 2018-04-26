@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz81/synfrontend2004"
+        image: "docker pull dockerclass16/frontendthreetier"
         ports:
           - name: http
             containerPort: 80
